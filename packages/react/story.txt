@@ -12,4 +12,5 @@
     "@storybook/react-dom-shim": "^8.0.10",
     "storybook": "7.0.9"
 
-
+      "target": "esnext",
+            "module": "esnext",
