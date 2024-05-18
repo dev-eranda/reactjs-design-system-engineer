@@ -1,6 +1,6 @@
 {
   "name": "@test.ds.e/react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "files": [
@@ -41,7 +41,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@test.ds.e/foundation": "^1.0.1",
+    "@test.ds.e/foundation": "^1.0.2",
     "dlx": "^0.2.1"
   },
   "gitHead": "ed66e502dd009938406950b3d81f0d16c41b51b7"
