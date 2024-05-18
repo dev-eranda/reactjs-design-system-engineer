@@ -1,0 +1,47 @@
+{
+  "name": "@sample.ds.e/react",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react-vite": "^8.0.10",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@types/jest": "^26.0.7",
+    "@types/react": "^16.9.43",
+    "@vitejs/plugin-react": "^4.2.1",
+    "babel-loader": "^8.1.0",
+    "chromatic": "^5.0.0",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "rollup": "^2.22.1",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "storybook": "8.0.10",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "yarn build --watch",
+    "test": "jest --verbose",
+    "test:watch": "yarn test --watch",
+    "start-storybook": "storybook dev",
+    "build-storybook": "storybook build",
+    "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "dlx": "^0.2.1"
+  },
+  "gitHead": "aa206f7414a362e192a6875e49f6aa9e1b80102e"
+}

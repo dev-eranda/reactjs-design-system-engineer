@@ -1,0 +1,25 @@
+{
+  "name": "@sample.ds.e/foundation",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.7",
+    "jest": "^26.1.0",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build -w",
+    "test": "jest --verbose"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "aa206f7414a362e192a6875e49f6aa9e1b80102e"
+}

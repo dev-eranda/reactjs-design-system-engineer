@@ -1,0 +1,16 @@
+,
+    "@storybook/addon-a11y": "^5.3.19",
+    "@storybook/addon-knobs": "^7.0.2",
+    "@storybook/addon-storysource": "^5.3.19",
+
+    "@storybook/react-vite": "^8.0.10",
+
+
+    "@storybook/cli": "7.0.9",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^7.0.9",
+    "@storybook/react-dom-shim": "^8.0.10",
+    "storybook": "7.0.9"
+
+
+    "@ds.e/foundation": "^0.1.4",
