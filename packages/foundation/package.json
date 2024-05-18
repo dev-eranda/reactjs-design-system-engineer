@@ -1,5 +1,5 @@
 {
-  "name": "@sample.ds.e/foundation",
+  "name": "@test.ds.e/foundation",
   "version": "0.0.0",
   "main": "lib/index.js",
   "license": "MIT",
