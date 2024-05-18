@@ -12,6 +12,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react-vite": "^8.0.10",
+    "@test.ds.e/foundation": "^1.0.1",
     "@testing-library/jest-dom": "^5.11.1",
     "@testing-library/react": "^10.4.7",
     "@types/jest": "^26.0.7",
@@ -40,7 +41,8 @@
     "access": "public"
   },
   "dependencies": {
+    "@test.ds.e/foundation": "^1.0.1",
     "dlx": "^0.2.1"
   },
-  "gitHead": "aa206f7414a362e192a6875e49f6aa9e1b80102e"
+  "gitHead": "ed66e502dd009938406950b3d81f0d16c41b51b7"
 }

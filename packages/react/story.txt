@@ -13,4 +13,3 @@
     "storybook": "7.0.9"
 
 
-    "@ds.e/foundation": "^0.1.4",
