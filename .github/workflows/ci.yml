@@ -1,26 +1,43 @@
-name : Build & test CI
+# name :  CI
 
+# on:
+#   push:
+#       branches:
+#           -main
 
-on: 
-  push: 
-      branches:
-          -master
+#   pull_request:
+#       branches:
+#           -main
 
+# jobs:
+#   builds:
+#     runs-on: ubuntu-latest
+#     steps:
+#         -uses: actions/checkout@v2
+#         -name: Install dependencies
+#           run: yarn
+#         -name: Build packages
+#           run: yarn build
+#         -name: Automated test
+#           run: yarn test
+
+name: Build & test CI
+
+on:
+  push:
+    branches: [main]
   pull_request:
-      branches:   
-          -master
-  
-jobs: 
-  builds:
+    branches: [main]
+
+jobs:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-        -uses: actions/checkout@v2
-
-        -name: Install dependencies
-          run: yarn
-
-        -name: Build packages
-          run: yarn build
-
-        -name: Automated test
-          run: yarn test
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn
+      - name: Build packages
+        run: yarn build
+      - name: Automated test
+        run: yarn test
