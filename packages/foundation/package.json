@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "yarn build -w",
+    "dev": "yarn build --watch",
     "test": "jest --verbose"
   },
   "publishConfig": {

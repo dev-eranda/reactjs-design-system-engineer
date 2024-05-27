@@ -11,3 +11,9 @@
     "@storybook/react": "^7.0.9",
     "@storybook/react-dom-shim": "^8.0.10",
     "storybook": "7.0.9"
+
+
+    
+    "dev": "nodemon --watch src --exec yarn build -e scss"
+    "dev": "yarn build --watch",
+    "dev": "yarn build --watch",

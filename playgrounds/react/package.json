@@ -14,5 +14,9 @@
   "scripts": {
     "dev": "parcel src/index.html -p 3000"
   },
-  "private": "true"
+  "private": "true",
+  "dependencies": {
+    "@test.ds.e/react": "^1.0.2",
+    "@test.ds.e/scss": "^1.0.2"
+  }
 }
