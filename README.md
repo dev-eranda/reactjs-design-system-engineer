@@ -20,9 +20,29 @@ npm install
 ```
 
 ## Usage
-You can start the development server using:
+Start the development server:
 ```bash
-npm start
+yarn dev
+```
+Build the project:
+```bash
+yarn build
+```
+Test the project:
+```bash
+yarn test
+```
+Publish the project:
+```bash
+yarn publish
+```
+Commit the project:
+```bash
+yarn commit
+```
+Chromatic the project:
+```bash
+yarn chromatic
 ```
 
 ## NPM Packages
