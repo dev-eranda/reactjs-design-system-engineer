@@ -40,14 +40,7 @@ Commit the project:
 ```bash
 yarn commit
 ```
-Test-Chromatic the project:
-```bash
-yarn test:chromatic
-```
-Build-Storybook the project:
-```bash
-yarn build:storybook
-```
+
 
 
 ## NPM Packages
