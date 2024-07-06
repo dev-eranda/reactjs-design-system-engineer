@@ -14,8 +14,8 @@ This repository contains resources and examples for the "Advanced React For Ente
 
 To get started, clone this repository and install the dependencies:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/yourusername/ds.e.git
+cd ds.e
 npm install 
 ```
 
