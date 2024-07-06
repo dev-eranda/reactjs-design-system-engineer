@@ -20,13 +20,13 @@ npm install
 ```
 
 ## Usage
-Start the development server:
-```bash
-yarn dev
-```
 Build the project:
 ```bash
 yarn build
+```
+Start the development server:
+```bash
+yarn dev
 ```
 Test the project:
 ```bash
@@ -40,10 +40,15 @@ Commit the project:
 ```bash
 yarn commit
 ```
-Chromatic the project:
+Test-Chromatic the project:
 ```bash
-yarn chromatic
+yarn test:chromatic
 ```
+Build-Storybook the project:
+```bash
+yarn build:storybook
+```
+
 
 ## NPM Packages
 @test.ds.e/foundation
