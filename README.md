@@ -18,4 +18,9 @@ To get started, clone this repository and install the dependencies:
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
-npm install
+npm install ```
+
+
+## Usage 
+You can start the development server using:
+npm start
