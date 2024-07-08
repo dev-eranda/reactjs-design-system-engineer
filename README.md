@@ -8,7 +8,6 @@ This repository contains resources and examples for the "Advanced React For Ente
 - [Usage](#usage)
 - [NPM Packages](#npm-packages)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -60,5 +59,3 @@ npm install @test.ds.e/scss
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-This project is licensed under the terms of the [MIT License](./LICENSE).
