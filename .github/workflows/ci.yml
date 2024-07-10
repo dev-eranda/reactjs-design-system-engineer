@@ -1,30 +1,39 @@
+# on:
+#   push:
+#     branches: [main]
+#   pull_request:
+#     branches: [main]
+
 name: Build & test CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0
 
-      - name: Install dependencies
-        run: yarn
+    - name: Install dependencies
+      run: yarn install
 
-      - name: Build packages
-        run: yarn build
+    - name: Build packages
+      run: yarn build
 
-      - name: Automated test
-        run: yarn test
-        
-      - name: Visual regression tests
-        env:
-          CHROMATIC_PROJECT_TOKEN: ${{ secrets.chpt_a1073d7bf2439e5 }}
-        run: yarn test:chromatic
+    - name: Automated test
+      run: yarn test
+
+    - name: Run Chromatic
+      run: yarn test:chromatic
+      env:
+        CHROMATIC_PROJECT_TOKEN: ${{ secrets.chpt_a1073d7bf2439e5 }}
