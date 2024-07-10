@@ -12,12 +12,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
       - name: Install dependencies
         run: yarn
+
       - name: Build packages
         run: yarn build
+
       - name: Automated test
         run: yarn test
+        
       - name: Visual regression tests
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.chpt_a1073d7bf2439e5 }}
