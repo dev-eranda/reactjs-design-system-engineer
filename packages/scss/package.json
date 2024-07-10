@@ -22,7 +22,7 @@
     "stylelint-prettier": "^1.1.2"
   },
   "scripts": {
-    "lint": "stylelint './**/*.scss'",
+    "lint": "stylelint ./**/*.scss",
     "lint:fix": "yarn lint --fix",
     "build": "node src/scripts/build.js",
     "dev": "nodemon --watch src --exec yarn build -e scss"
