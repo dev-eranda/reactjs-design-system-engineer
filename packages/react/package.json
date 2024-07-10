@@ -39,9 +39,9 @@
     "dev": "yarn build --watch",
     "test": "jest --verbose",
     "test:watch": "yarn test --watch",
-    "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\"",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test:chromatic": "chromatic --project-token=chpt_a1073d7bf2439e5"
   },
   "publishConfig": {
     "access": "public"
