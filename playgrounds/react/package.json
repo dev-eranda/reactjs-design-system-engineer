@@ -1,6 +1,6 @@
 {
   "name": "@playgrounds/react",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
@@ -16,7 +16,7 @@
   },
   "private": "true",
   "dependencies": {
-    "@test.ds.e/react": "^1.0.2",
-    "@test.ds.e/scss": "^1.0.2"
+    "@test.ds.e/react": "^1.0.3",
+    "@test.ds.e/scss": "^1.0.3"
   }
 }
