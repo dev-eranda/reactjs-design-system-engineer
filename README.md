@@ -13,7 +13,7 @@ The main objectives of this application are to:
 1. This project focuses on implementing scalable CSS architecture for maintainable and consistent styles.
 2. It designs reusable React components using effective design patterns for modularity and composability.
 3. The components are built with TypeScript to ensure type safety and improve code maintainability.
-4. Unit and visual regression testing are incorporated to maintain component stability and catch layout or style issues.
+4. Unit and visual regression testing are incorporated to maintain component stability and catch style issues.
 5. Storybook is used to document components and establish a consistent design system for collaboration.
 <hr />
 
@@ -46,7 +46,9 @@ Core technologies used:
 
 6. Commit the project:
     ```sh
-    yarn commit
+    npm commit
+
+- **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.**
 
 ## NPM Packages
 @test.ds.e/foundation
@@ -61,5 +63,3 @@ npm install @test.ds.e/react
 ```bash
 npm install @test.ds.e/scss
 ```
-
-- **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.**
