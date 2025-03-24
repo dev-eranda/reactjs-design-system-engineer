@@ -4,23 +4,23 @@
 <hr />
 
 ## Project Backgroud and Overview
-This repository contains resources and examples for the "Advanced React For Enterprise: React for Senior Engineers" course from Udemy. The course covers advanced topics in React, including performance optimization, state management, and server-side rendering.
+This repository contains resources and examples for the "Advanced React For Enterprise: React for Senior Engineers" course from Udemy. The course covers advanced topics in React, including performance optimization, state management, and server-side rendering
 <hr />
 
 ## Project Goals
 The main objectives of this application are to:
 
-1. This project focuses on implementing scalable CSS architecture for maintainable and consistent styles.
-2. It designs reusable React components using effective design patterns for modularity and composability.
-3. The components are built with TypeScript to ensure type safety and improve code maintainability.
-4. Unit and visual regression testing are incorporated to maintain component stability and catch style issues.
-5. Storybook is used to document components and establish a consistent design system for collaboration.
+1. This project focuses on implementing scalable CSS architecture for maintainable and consistent styles
+2. It designs reusable React components using effective design patterns for modularity and composability
+3. The components are built with TypeScript to ensure type safety and improve code maintainability
+4. Unit and visual regression testing are incorporated to maintain component stability and catch style issues
+5. Storybook is used to document components and establish a consistent design system for collaboration
 <hr />
 
 ## Technical Details
 Core technologies used: 
 
-- **React.js, JavaScript, TypeScript, SCSS, HTML**
+- **ReactJS, JavaScript, TypeScript, SCSS, HTML**
 <hr />
 
 ## Installation
