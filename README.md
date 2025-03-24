@@ -1,9 +1,9 @@
 # Advanced React For Enterprise
 
-**Developed By:** Eranda Samarasinghe
+**Developed by:** Eranda Samarasinghe
 <hr />
 
-## Project Backgroud and Overview
+## Project Background and Overview
 This repository contains resources and examples for the "Advanced React For Enterprise: React for Senior Engineers" course from Udemy. The course covers advanced topics in React, including performance optimization, state management, and server-side rendering
 <hr />
 
@@ -20,7 +20,7 @@ The main objectives of this application are to:
 ## Technical Details
 Core technologies used: 
 
-- **ReactJS, JavaScript, TypeScript, SCSS, HTML**
+- **React, JavaScript, TypeScript, SCSS, HTML**
 <hr />
 
 ## Installation
